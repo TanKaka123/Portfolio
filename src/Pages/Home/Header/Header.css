@@ -1,0 +1,77 @@
+.header{
+    height: 50vh;
+    background-color: rgb(27, 26, 26);
+   
+}
+Link{
+  color: #0060B6;
+  text-decoration: none;
+  
+}
+.img-HongTan{
+    position: absolute;
+    max-height: 70%;
+    max-width: 70%;
+    top:10%;
+    left: 10%;
+}
+
+.nav{
+  position: absolute;
+  left: 60%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.nav-bar{
+    /* max-width: 80%; */
+    list-style-type: none;
+    display: flex;
+}
+.item-nav{
+    border-style: dotted; 
+    border-radius: 50%;
+    padding : 40px;
+    border-color: #548ca3;
+   margin-left:6em ;
+   cursor : pointer;
+   color : #803541;
+}
+.discription{
+  
+  position: absolute;
+  background-color: #c43e3f;
+  font-size: 20px;
+  
+  padding : 10px 30px 10px 30px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  
+  color : 803541;
+}
+.item-nav:hover {
+  color : white;
+}
+
+
+.loader {
+    position: absolute;
+    top:38%;
+    left: 17%;
+    border: 5px solid #100D0D;
+    border-radius: 50%;
+    border-top: 5px solid  white;
+    border-bottom: 5px solid  white;
+    width: 30px;
+    height: 30px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

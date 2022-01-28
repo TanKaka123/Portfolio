@@ -1,0 +1,21 @@
+h1{
+    color: #3d6879;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px rgb(255 255 255 / 10%);
+}
+.title{
+    padding-left: 4em;
+    background-color: #548ca3;
+    height: 20vh;
+    cursor: pointer;
+    display: flex;
+}
+
+.logo-tittle{
+   
+    margin: auto;
+    text-decoration: none
+}

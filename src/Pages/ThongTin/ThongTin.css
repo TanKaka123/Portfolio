@@ -1,0 +1,28 @@
+.Tittle-ThongTin{
+    color : white;
+    text-align: center;
+    margin-left: 9em;
+    font-size: 35px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    
+}
+.icon-back
+{
+    position: absolute;
+    left : 20px;
+    animation: pulse 2s infinite;
+    
+}
+
+@keyframes pulse {
+    0% {
+      left: 30px;
+    }
+    50% {
+        left: 20px;
+      }
+
+    100% {
+      left: 30px;
+    }
+  }
