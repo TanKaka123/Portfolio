@@ -1,3 +1,11 @@
+
+.title{
+    padding-left: 4em;
+    background-color: #548ca3;
+    height: 20vh;
+    cursor: pointer;        
+    display: flex;
+}
 h1{
     color: #3d6879;
     font-family: 'Quicksand', sans-serif;
@@ -6,14 +14,11 @@ h1{
     text-transform: uppercase;
     text-shadow: 2px 2px 3px rgb(255 255 255 / 10%);
 }
-.title{
-    padding-left: 4em;
-    background-color: #548ca3;
-    height: 20vh;
-    cursor: pointer;
-    display: flex;
+@media screen and (max-width : 46.1875em) {
+    h1{
+        font-size: 1em;
+    }
 }
-
 .logo-tittle{
    
     margin: auto;

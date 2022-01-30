@@ -4,7 +4,6 @@
     margin-left: 9em;
     font-size: 35px;
     font-family: "Comic Sans MS", cursive, sans-serif;
-    
 }
 .icon-back
 {
@@ -12,6 +11,13 @@
     left : 20px;
     animation: pulse 2s infinite;
     
+}
+.contain-heading{
+  position: absolute;
+    top:20vh;
+    left: 0;
+    right: 0;
+    z-index: 2;
 }
 
 @keyframes pulse {
@@ -26,3 +32,17 @@
       left: 30px;
     }
   }
+  @media screen and (max-width:46.1875em) {
+    .Tittle-ThongTin{
+      margin-left: 0em;
+      padding-top: 0.5em;
+      
+      font-size:30px;
+    }
+    .icon-back{
+      top:10px;
+    }
+    .nav{
+      margin-top: 2em;
+    }
+}

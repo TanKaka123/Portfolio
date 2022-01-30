@@ -13,7 +13,15 @@ Link{
     max-height: 70%;
     max-width: 70%;
     top:10%;
-    left: 10%;
+    left: 8%;
+    z-index: 3;
+}
+@media screen and (max-width:46.1875em)
+{
+  .img-HongTan{
+    z-index: 1;
+    left: 6%;
+  }
 }
 
 .nav{
@@ -44,18 +52,57 @@ Link{
   
   padding : 10px 30px 10px 30px;
   font-family: "Comic Sans MS", cursive, sans-serif;
-  
-  color : 803541;
+ 
 }
 .item-nav:hover {
   color : white;
+  border-color: white;
+}
+
+@media screen and (max-width : 46.1875em)
+{
+  .nav{
+    left: 40%;
+    top: 50%;
+    transform: translateX(-50%, -50%);
+  }
+  .nav-bar{
+    flex-direction: column;
+   
+  
+  }
+  .item-nav{
+      border-radius: 10px;
+      padding: 5px 60px 5px 60px;
+      margin-top: 0.6em;
+      border-style:solid;
+     
+  }
+  svg{
+    height: 40px;
+    width: 40px;
+  }
+  .discription
+  {
+    position: static;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    min-width: 100px;
+    text-align: center;
+    background-color: transparent;
+    
+  }
+  .item-nav{
+    display: flex;
+  }
 }
 
 
 .loader {
     position: absolute;
     top:38%;
-    left: 17%;
+    left: 15%;
     border: 5px solid #100D0D;
     border-radius: 50%;
     border-top: 5px solid  white;
@@ -74,4 +121,10 @@ Link{
   @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+  }
+  /* Hidden loading in mobile*/
+  @media screen and (max-width : 46.1875em) {
+    .loader{
+      display: none;
+    }
   }

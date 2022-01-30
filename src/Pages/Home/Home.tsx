@@ -1,14 +1,18 @@
-import Footer from './Footer/Footer';
+import Footer from '../../Components/Footer/Footer';
 import Header from './Header/Header';
 import './Home.css'
-import Tittle from './Tittle/Tittle'
+import Tittle from '../../Components/Tittle/Tittle';
+import HongTan from '../../Components/HongTan/HongTan';
 
 function Home() {
     return (
     <>
     <div className="Home">
        <Tittle/>
-        <Header/>
+       <div className="contain-heading">
+       <Header/>
+       </div>
+       <HongTan/>
         <Footer/>
     </div>
     </>

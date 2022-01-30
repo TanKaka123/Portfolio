@@ -1,14 +1,13 @@
 import  { useState } from "react";
 import "./Header.css";
 import { IconInfor, IconWork, IconContact } from "./Icon";
-import HongTan from "./HongTan";
+import HongTan from "../../../Components/HongTan/HongTan";
 import { Link } from "react-router-dom";
 
 function Header() {
   const [changeColor, setChangeColor] = useState("");
   return (
     <div className="header ">
-      <HongTan/>
       <div className="nav">
         <ul className="nav-bar">
           <Link to="/thongtin"
@@ -20,8 +19,7 @@ function Header() {
               setChangeColor("");
             }}
           >
-            {" "}
-            <IconInfor color={changeColor} />
+            <IconInfor color={changeColor}  />
             <h2 className="discription"  style={{left : "4.9em"}}>Thông tin</h2>
           </Link>
           <Link to="/congviec"

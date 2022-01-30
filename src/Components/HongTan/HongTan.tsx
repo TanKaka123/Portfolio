@@ -1,11 +1,11 @@
-import "./Header.css";
+import "../../Pages/Home/Header/Header.css";
 
 function HongTan() {
     return (
         <div>
-            <img src="./HongTan.png" alt="" className="img-HongTan" />{" "}
+            <img src="./HongTan.png" alt="" className="img-HongTan" />
       <div className="loader"></div>
-      <img />
+     
         </div>
     );
 }

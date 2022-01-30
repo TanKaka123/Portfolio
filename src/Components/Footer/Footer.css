@@ -1,14 +1,14 @@
 
 .footer{
-    height: 30vh;
+    height: 80vh;
     background-color: #548ca3;
 
 }
 
   .basketball {
-    position: relative;
-    top: 50px;
-    left:-50px;
+    position: absolute;
+    right: 140px;
+    bottom: 160px;
   }
   
   .ball {
@@ -20,6 +20,13 @@
     overflow: hidden;
     border: 3px solid #333;
     animation: bounce 1.5s ease-in 1;
+  }
+  @media screen and (max-width:46.1875em)
+  {
+    .ball{
+      width: 80px;
+      height:80px;
+    }
   }
   
   @keyframes bounce {
