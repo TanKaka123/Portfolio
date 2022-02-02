@@ -1,7 +1,7 @@
 .Tittle-LienLac{
     color : white;
     text-align: center;
-    margin-left: 9em;
+  
     font-size: 35px;
     font-family: "Comic Sans MS", cursive, sans-serif;
     
@@ -13,7 +13,12 @@
     animation: pulse 2s infinite;
     
 }
-
+.icon-back-mobile
+{
+  position: absolute;
+  left : 20px;
+  display: none;
+}
 @keyframes pulse {
     0% {
       left: 30px;
@@ -32,13 +37,22 @@
       margin-left: 0em;
       padding-top: 0.5em;
       
-      font-size:30px;
+      font-family: 'Economica', sans-serif;
+      font-weight: 600;
+      font-size:25px;
     }
     .icon-back{
       top:10px;
     }
     .nav{
       margin-top: 2em;
+    }
+    .icon-back-mobile
+    {
+        display: block;
+    }
+    .icon-back{
+      display: none;
     }
 }
 

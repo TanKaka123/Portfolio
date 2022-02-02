@@ -1,9 +1,9 @@
 .Tittle-ThongTin{
     color : white;
     text-align: center;
-    margin-left: 9em;
     font-size: 35px;
     font-family: "Comic Sans MS", cursive, sans-serif;
+    
 }
 .icon-back
 {
@@ -36,8 +36,9 @@
     .Tittle-ThongTin{
       margin-left: 0em;
       padding-top: 0.5em;
-      
-      font-size:30px;
+      font-family: 'Economica', sans-serif;
+      font-weight: 600;
+      font-size:25px;
     }
     .icon-back{
       top:10px;

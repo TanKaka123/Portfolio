@@ -20,7 +20,7 @@ function Header() {
             }}
           >
             <IconInfor color={changeColor}  />
-            <h2 className="discription"  style={{left : "4.9em"}}>Thông tin</h2>
+            <h2 className="discription"  style={{left : "2.5em"}}>Thông tin</h2>
           </Link>
           <Link to="/congviec"
             className="item-nav"
@@ -32,7 +32,7 @@ function Header() {
             }}
           >
             <IconWork  color={changeColor}/>
-            <h2 className="discription" style={{right : "12.6em"}}>Công việc</h2>
+            <h2 className="discription" style={{right : "15em"}}>Công việc</h2>
           </Link>
           <Link to="/lienlac"
             className="item-nav"
@@ -44,7 +44,7 @@ function Header() {
             }}
           >
             <IconContact color={changeColor}/>
-            <h2 className="discription" style={{right : "-0.4em"}}>Trò chuyện</h2>
+            <h2 className="discription" style={{right : "2em"}}>Trò chuyện</h2>
           </Link>
 
           

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Footer from '../../../Components/Footer/Footer';
-import {IconGithub,IconMail,IconLinkedin,IconBack } from '../Icon'
+import {IconGithub,IconMail,IconLinkedin,IconBack,IconBackMobile  } from '../Icon'
 import '../../../Pages/Home/Header/Header.css'
 import { Link } from 'react-router-dom';
 
@@ -14,7 +14,10 @@ function Header() {
                       <IconBack/>
               
                   </Link>
-          
+           <Link className="icon-back-mobile" to={'/'}>
+                      
+            <IconBackMobile/>
+                  </Link>
       
         <div className="Tittle-LienLac">Thông Tin Liên Lạc</div>
         <div className="nav">
@@ -30,7 +33,7 @@ function Header() {
             >
               {" "}
               <IconGithub color={changeColor} />
-              <h2 className="discription"  style={{left : "5.6em"}}>Github</h2>
+              <h2 className="discription"  style={{left : "3.2em"}}>Github</h2>
             </a>
             <a href="mailto:hongtan1422002@gmail.com?"
               target="_blank"
@@ -44,7 +47,7 @@ function Header() {
               }}
             >
               <IconMail  color={changeColor}/>
-              <h2 className="discription" style={{right : "13.6em"}}>Email</h2>
+              <h2 className="discription" style={{right : "16em"}}>Email</h2>
             </a>
             <a href='https://www.linkedin.com/in/nguyenhongtan/' target="_blank"
               className="item-nav"
@@ -56,7 +59,7 @@ function Header() {
               }} rel="noreferrer"
             >
               <IconLinkedin  color={changeColor}/>
-              <h2 className="discription" style={{right : "0.4em"}}>Linkedin</h2>
+              <h2 className="discription" style={{right : "2.8em"}}>Linkedin</h2>
             </a>
   
             

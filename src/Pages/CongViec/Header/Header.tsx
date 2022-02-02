@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import {IconResume,IconProject,IconBack } from '../Icon';
 import '../../Home/Header/Header.css'
-function Header() {
+function Header({openProject}:any) {
     const [changeColor, setChangeColor] = useState("");
+  
     return (
      
            
@@ -15,10 +16,10 @@ function Header() {
                 </Link>
         
     
-      <div className="Tittle-CongViec">Thông Tin Project Và Resume </div>
+      <div className="Tittle-CongViec">Resume và Project </div>
       <div className="nav">
         <ul className="nav-bar">
-          <a href="https://github.com/TanKaka123" target="_blank"
+          <a href="./Resume.pdf" download
             className="item-nav"
             onMouseOver={() => {
               setChangeColor("resume");
@@ -27,13 +28,11 @@ function Header() {
               setChangeColor("");
             }} rel="noreferrer"
           >
-            {" "}
             <IconResume color={changeColor} />
-            <h2 className="discription"  style={{left : "4.5em"}}>Resume/CV</h2>
+            <h2 className="discription"  style={{left : "2.2em"}}>Resume/CV</h2>
           </a>
-          <a href="mailto:hongtan1422002@gmail.com?"
-            target="_blank"
-            rel="noreferrer"
+          <a href="#resume"
+            onClick={()=>{openProject(true)}}
             className="item-nav"
             onMouseOver={() => {
               setChangeColor("project");
@@ -43,7 +42,7 @@ function Header() {
             }}
           >
             <IconProject  color={changeColor}/>
-            <h2 className="discription" style={{right : "0.5em"}}>Project</h2>
+            <h2 className="discription" style={{right : "3em"}}>Project</h2>
           </a>
          
           

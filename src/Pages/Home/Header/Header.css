@@ -1,7 +1,7 @@
 .header{
-    height: 50vh;
+    height: 20em;
     background-color: rgb(27, 26, 26);
-   
+   padding-top: 10px;
 }
 Link{
   color: #0060B6;
@@ -13,10 +13,10 @@ Link{
     max-height: 70%;
     max-width: 70%;
     top:10%;
-    left: 8%;
+    left: 4%;
     z-index: 3;
 }
-@media screen and (max-width:46.1875em)
+@media screen and (max-width:64em)
 {
   .img-HongTan{
     z-index: 1;
@@ -26,7 +26,7 @@ Link{
 
 .nav{
   position: absolute;
-  left: 60%;
+  left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
@@ -40,7 +40,8 @@ Link{
     border-radius: 50%;
     padding : 40px;
     border-color: #548ca3;
-   margin-left:6em ;
+   margin-left:3em ;
+   margin-right: 3em;
    cursor : pointer;
    color : #803541;
 }
@@ -59,10 +60,10 @@ Link{
   border-color: white;
 }
 
-@media screen and (max-width : 46.1875em)
+@media screen and (max-width : 63.9375em)
 {
   .nav{
-    left: 40%;
+    left: 50%;
     top: 50%;
     transform: translateX(-50%, -50%);
   }
@@ -76,6 +77,8 @@ Link{
       padding: 5px 60px 5px 60px;
       margin-top: 0.6em;
       border-style:solid;
+      margin-left:0 ;
+   margin-right: 0;
      
   }
   svg{
@@ -91,6 +94,7 @@ Link{
     min-width: 100px;
     text-align: center;
     background-color: transparent;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     
   }
   .item-nav{

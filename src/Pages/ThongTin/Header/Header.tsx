@@ -24,7 +24,7 @@ function Header() {
             }} rel="noreferrer"
           >
             <IconPrivate color={changeColor} />
-            <h2 className="discription"  style={{left : "4.9em"}}>Bản Thân</h2>
+            <h2 className="discription"  style={{left : "2.5em"}}>Bản Thân</h2>
           </a>
           <a href="mailto:hongtan1422002@gmail.com?"
             target="_blank"
@@ -38,7 +38,7 @@ function Header() {
             }}
           >
             <IconActivity  color={changeColor}/>
-            <h2 className="discription" style={{right : "12.3em"}}>Hoạt Động</h2>
+            <h2 className="discription" style={{right : "14.6em"}}>Hoạt Động</h2>
           </a>
           <a href='https://www.linkedin.com/in/nguyenhongtan/' target="_blank"
             className="item-nav"
@@ -50,7 +50,7 @@ function Header() {
             }} rel="noreferrer"
           >
             <IconStory  color={changeColor}/>
-            <h2 className="discription" style={{right : "-0.5em"}}>Câu Chuyện</h2>
+            <h2 className="discription" style={{right : "2em"}}>Câu Chuyện</h2>
           </a>
 
           
