@@ -1,0 +1,37 @@
+.aboutme{
+    margin: 0 4em;
+    margin-top: 8em;
+    
+    
+}
+.aboutme-avatar{
+    max-width: 25vw;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 50px;
+    
+}
+.aboutme-desc
+{
+    display: inline-block;
+    margin-top: 0px;
+}
+p,h2{
+    display: inline-block;
+    font-size: 1em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+p{
+    width: 10em;
+    font-weight: 700;
+}
+h2{
+    font-weight: 500;
+}
+.aboutme-avt--wrapper{
+    display: inline-block;
+}
+.aboutme-name,.aboutme-date,.aboutme-job,.aboutme-role,.aboutme-major,.aboutme-university,.aboutme-hobby,.aboutme-quetos{
+    margin: 18px 0;
+}
