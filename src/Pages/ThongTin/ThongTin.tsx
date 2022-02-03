@@ -6,6 +6,7 @@ import '../Home/Header/Header.css'
 import { Link } from 'react-router-dom';
 import './ThongTin.css'
 import Header from './Header/Header';
+import BanThan from './BanThan/BanThan';
 function ThongTin() {
     
     return (
@@ -15,7 +16,8 @@ function ThongTin() {
        <Header/>
        </div>
        <HongTan/>
-            <Footer/>
+        <Footer/>
+        <BanThan/>
         </div>
     );
 }
