@@ -1,0 +1,27 @@
+.move-top{
+    position: fixed;
+    right :50px;
+    bottom: 30px;
+    max-height: 80px;
+    animation: zoom 1s linear infinite;
+    cursor: pointer;   
+}
+
+@keyframes zoom {
+    0%{
+        bottom: 30px;
+    }
+    50%{
+        bottom: 50px;
+    }
+    100%{
+        bottom: 30px;
+    }
+}
+
+@media screen and (max-width : 63.9375em)
+{
+    .move-top{
+        right :20px;
+    }
+}

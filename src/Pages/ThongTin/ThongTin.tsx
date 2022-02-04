@@ -3,21 +3,33 @@ import Tittle from '../../Components/Tittle/Tittle';
 import Footer from '../../Components/Footer/Footer';
 import HongTan from '../../Components/HongTan/HongTan';
 import '../Home/Header/Header.css'
-import { Link } from 'react-router-dom';
 import './ThongTin.css'
 import Header from './Header/Header';
 import BanThan from './BanThan/BanThan';
+import HoatDong from './HoatDong/HoatDong';
+import CauChuyen from './CauChuyen/CauChuyen';
 function ThongTin() {
-    
+    const [handleSelect,setHandleSelect]=useState(' ');
     return (
       <div>
         <Tittle/>
         <div className="contain-heading">
-       <Header/>
+       <Header click={setHandleSelect}/>
        </div>
        <HongTan/>
         <Footer/>
-        <BanThan/>
+        { handleSelect==="ban-than"
+        && <div id="ban-than" ><BanThan/></div>}
+        {
+            handleSelect==="hoat-dong"
+            && <div id="hoat-dong" ><HoatDong/>
+          </div>
+        }
+        {
+             handleSelect==="cau-chuyen"
+             && <div id="cau-chuyen" ><CauChuyen/>
+           </div>
+        }
         </div>
     );
 }

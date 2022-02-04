@@ -45,18 +45,18 @@ Link{
    cursor : pointer;
    color : #803541;
 }
+
 .discription{
   
   position: absolute;
   background-color: #c43e3f;
   font-size: 20px;
-  
+  color : white;
   padding : 10px 30px 10px 30px;
   font-family: "Comic Sans MS", cursive, sans-serif;
  
 }
 .item-nav:hover {
-  color : white;
   border-color: white;
 }
 
@@ -69,8 +69,6 @@ Link{
   }
   .nav-bar{
     flex-direction: column;
-   
-  
   }
   .item-nav{
       border-radius: 10px;
@@ -78,7 +76,7 @@ Link{
       margin-top: 0.6em;
       border-style:solid;
       margin-left:0 ;
-   margin-right: 0;
+    margin-right: 0;
      
   }
   svg{
@@ -94,7 +92,7 @@ Link{
     min-width: 100px;
     text-align: center;
     background-color: transparent;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Economica', sans-serif;
     
   }
   .item-nav{

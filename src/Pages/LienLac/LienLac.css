@@ -1,7 +1,6 @@
 .Tittle-LienLac{
     color : white;
     text-align: center;
-  
     font-size: 35px;
     font-family: "Comic Sans MS", cursive, sans-serif;
     
@@ -16,7 +15,7 @@
 .icon-back-mobile
 {
   position: absolute;
-  left : 20px;
+  left : 15px;
   display: none;
 }
 @keyframes pulse {

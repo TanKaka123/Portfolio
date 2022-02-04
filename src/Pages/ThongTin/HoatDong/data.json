@@ -1,0 +1,27 @@
+[
+    {
+        "name":"Mùa Hè Xanh - Tin Học Hóa",
+        "url-img":"./active/mhx.png",
+        "desc":"Đây là hoạt động mà tui ấn tượng nhất, ngoài khoảng thời gian được trainning về lập trình web, tui còn được tự tay code những chức năng của website được sử dụng trong thực tế"
+    },
+    {
+        "name":"Hội Trại Ban Cán Sự",
+        "url-img":"./active/Hoi-trai-bcs.png",
+        "desc":"Hoạt động này giúp tui làm quen được rất nhiều người bạn mới, mọi người đều có một nhiệt huyết và hòa đồng mà trước đây chưa từng thấy, sau hoạt động này tui cũng học được rất nhiều thứ"
+    },
+    {
+        "name":"Let IT Shine",
+        "url-img":"./active/LIS.png",
+        "desc":"Đây là hoạt động đầu tiên giữ vai trò BTC, ngoài rèn luyện kĩ nâng tổ chức hoạt động, làm việc với các anh chị trưởng ban, tui còn làm quen được nhiều anh chị bạn bè. Những người hiện tại đang cho tui rất nhiều lời khuyên về cuộc sống và công việc"
+    },
+    {
+        "name":"VNU Will Run",
+        "url-img":"./active/Will-run.jpg",
+        "desc":"Sau 3 năm chạy bộ chỉ cho vui thì đây là giải thưởng đầu tiên của tui. Khi tham gia hoạt động này tui đã vượt qua giới hạn trước đây của mình khi chạy 10km/ngày và đều đặn đặn trong 20 ngày"
+    },
+    {
+        "name":"Student Innovation Prize",
+        "url-img":"./active/SIP.png",
+        "desc":"Những buổi trainning chất lượng về : Tài chính, Public Speaking, Critical thinking, Leadership,... Giúp mình cảm nhận bản thân cần phải cải thiện và nâng cáp kĩ nâng mềm nhiều hơn nữa"
+    }
+]

@@ -4,27 +4,27 @@
     "tittle": "  SLST - Nền tảng chia sẻ tài liệu và thi thử dành cho sinh viên",
     "descript": " Đây là project website đầu tiên tui giữ vai trò leader. Mặc trước đây tham gia vào nhiều project, nhưng với vai trò mới thì tính chất công việc cũng đổi mới, tạo nên một nền tảng khá chắc cho công việc sau này của tôi",
     "urlSource": "",
-    "urlWeb": ""
+    "urlWeb": "https://slst-student.netlify.app/"
   },
   {
     "urlImg": "./project/r2us.PNG",
     "tittle": "  R2US - Nền tảng chia sẻ tài liệu dành cho sinh viên",
     "descript": " Đây là project website đầu tiên của tôi, trong quá trình code tôi phải tự học thêm nhiều thứ để có thể code được, đó là quãng thời gian khó khăn vì lượng kiến thức khá lớn và mới mẻ đối với newbie, cộng thêm áp lực những môn học trên lớp. May mắn tôi đã hoàn thành và đang tự phát triển khá tốt",
     "urlSource": "",
-    "urlWeb": ""
+    "urlWeb": "https://r2us.netlify.app/"
   },
   {
     "urlImg": "./project/sodoan.PNG",
     "tittle": "sodoan Nền tảng lưu trữ, khai báo, chuyển số đoàn - HCMUS",
     "descript": " Đây là project website đầu tiên tui được tiếp xúc với backend và làm việc trực tiếp về 1 chức năng với một bạn khác trong team",
     "urlSource": "",
-    "urlWeb": ""
+    "urlWeb": "https://sodoan.netlify.app/"
   },
   {
     "urlImg": "./project/portfolio.PNG",
     "tittle": "Portfolio Trang website giới thiệu những thông tin cơ bản",
     "descript": " Đây là trang đầu tiên kết hợp responsive, trang web giới thiệu những thông tin cơ bản và những gì làm được trong quá trình theo học tại HCMUS",
     "urlSource": "",
-    "urlWeb": ""
+    "urlWeb": "https://nghongtan.netlify.app/"
   }
 ]

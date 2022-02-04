@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import {IconResume,IconProject,IconBack } from '../Icon';
+import {IconResume,IconProject,IconBack, IconBackMobile } from '../Icon';
 import '../../Home/Header/Header.css'
 function Header({openProject}:any) {
     const [changeColor, setChangeColor] = useState("");
@@ -14,7 +14,10 @@ function Header({openProject}:any) {
                     <IconBack/>
             
                 </Link>
-        
+                <Link className="icon-back-mobile" to={'/'}>
+                      
+                      <IconBackMobile/>
+                            </Link>
     
       <div className="Tittle-CongViec">Resume và Project </div>
       <div className="nav">
@@ -29,7 +32,7 @@ function Header({openProject}:any) {
             }} rel="noreferrer"
           >
             <IconResume color={changeColor} />
-            <h2 className="discription"  style={{left : "2.2em"}}>Resume/CV</h2>
+            <h2 className="discription"  style={{left : "2.2em", bottom:"0"}}>Resume/CV</h2>
           </a>
           <a href="#resume"
             onClick={()=>{openProject(true)}}

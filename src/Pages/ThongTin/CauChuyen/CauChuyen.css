@@ -1,0 +1,45 @@
+.cauchuyen-3-img, .cauchuyen-2-img,.cauchuyen-1-img
+{
+    max-width: 20vw;
+    display: inline-block;
+}
+h3{
+    display: inline-block;
+    font-size: 1.5em;
+    text-align: right;
+    max-width: 50vw;
+    color: whitesmoke;
+}
+.cauchuyen-1, .cauchuyen-2,.cauchuyen-3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 6vw 0;
+}
+.cauchuyen-2
+{
+    flex-direction: row-reverse;
+}
+.cauchuyen-daihoc-des{
+    text-align: left;
+    font-size: 20px;
+}
+.cauchuyen-cap3-des, .cauchuyen-quatrinh{
+    font-size: 20px;
+}
+@media screen and (max-width : 63.9375em)
+{
+    .cauchuyen-1, .cauchuyen-2,.cauchuyen-3{
+        flex-direction: column;
+    }
+    .cauchuyen-3-img, .cauchuyen-2-img,.cauchuyen-1-img
+    {
+        max-width: 60vw;
+    }
+    h3{
+        font-size: 20px;
+        text-align: justify;
+        margin-top: 20px;
+        max-width: 60vw;
+    }
+}

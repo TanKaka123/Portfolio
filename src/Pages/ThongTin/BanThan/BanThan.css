@@ -1,8 +1,6 @@
 .aboutme{
     margin: 0 4em;
-    margin-top: 8em;
-    
-    
+    margin-top: 6em;
 }
 .aboutme-avatar{
     max-width: 25vw;
@@ -16,7 +14,7 @@
     display: inline-block;
     margin-top: 0px;
 }
-p,h2{
+p,h3{
     display: inline-block;
     font-size: 1em;
     font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -26,12 +24,35 @@ p{
     width: 10em;
     font-weight: 700;
 }
-h2{
+h3{
     font-weight: 500;
+    color: whitesmoke;
 }
 .aboutme-avt--wrapper{
     display: inline-block;
 }
 .aboutme-name,.aboutme-date,.aboutme-job,.aboutme-role,.aboutme-major,.aboutme-university,.aboutme-hobby,.aboutme-quetos{
     margin: 18px 0;
+}
+@media screen and (max-width : 63.9375em)
+{
+    .aboutme{
+        margin: 0 4em;
+    }
+    .aboutme-avt--wrapper{
+        display: flex;
+    }
+    .aboutme-avatar{
+        max-width: 60vw;
+        margin: 0 auto;
+    }
+    p,h3{
+        font-size: 1.2em;
+        display: block;
+        font-weight: 400;
+    }
+    p{
+        width: 70vw;
+    }
+
 }

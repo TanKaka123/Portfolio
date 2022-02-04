@@ -1,11 +1,6 @@
 .container{
     padding-top: 2em;
 }
-
-.project-tittle
-{
-    font-size: 2em;
-}
 .project-intro{
     font-weight: 400;
     font-size: 1.2em;
@@ -22,11 +17,11 @@
 }
 .card-tittle,.card-img{
     max-width: 50vw;
-    margin: 0 auto;
+    margin: 3px auto;
     color: whitesmoke;
-    font-weight: 600;
-    font-size: 1.3em;
     cursor : pointer;
+    font-size: 18px;
+    font-weight: 600;
 }
 .card-img{
     border-radius: 10px;
@@ -40,15 +35,33 @@
     padding-top: 1em;
     display: inline;
     cursor: pointer;
+    font-size: 18px;
+    color :rgb(185, 238, 233);
 }
 
 .card{
     margin-top: 4em;
  
 }
-.project-tittle , .project-intro{
+ .project-intro{
     max-width: 50vw;
     display: block;
     margin: 0 auto;
     text-align: center;
+}
+@media screen and (max-width : 63.9375em)
+{
+    .card-img {
+        max-width: 80vw;
+        max-height: 400px;
+    }
+    .card-tittle, .card-desc,.project-intro{
+         max-width: 80vw;
+         text-align: justify;
+    }
+}
+
+
+a{
+    text-decoration: none;
 }

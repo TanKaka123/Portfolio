@@ -87,4 +87,17 @@ export const IconBack = () => {
       </svg>
     );
   };
+  export const IconBackMobile = () => {
+    return (
+      <svg
+        width="15"
+        height="16"
+        viewBox="0 0 15 16"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path d="M8 0.5V4H15V12H8V15.5L0.5 8L8 0.5Z" fill="white" />
+      </svg>
+    );
+  };
   

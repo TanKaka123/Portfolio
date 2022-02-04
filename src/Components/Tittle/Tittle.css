@@ -3,7 +3,7 @@
     padding-left: 4em;
     background-color: #548ca3;
     height: 20vh;
-    cursor: pointer;        
+       
     display: flex;
 }
 h1{
@@ -20,7 +20,7 @@ h1{
     }
 }
 .logo-tittle{
-   
+    cursor: pointer;     
     margin: auto;
     text-decoration: none
 }
