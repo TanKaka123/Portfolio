@@ -14,7 +14,7 @@
     display: inline-block;
     margin-top: 0px;
 }
-p,h3{
+p,h4{
     display: inline-block;
     font-size: 1em;
     font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -22,17 +22,17 @@ p,h3{
 
 p{
     width: 10em;
-    font-weight: 700;
+    font-weight: 600;
 }
-h3{
-    font-weight: 500;
+h4{
+    font-weight: 400;
     color: whitesmoke;
 }
 .aboutme-avt--wrapper{
     display: inline-block;
 }
 .aboutme-name,.aboutme-date,.aboutme-job,.aboutme-role,.aboutme-major,.aboutme-university,.aboutme-hobby,.aboutme-quetos{
-    margin: 18px 0;
+    margin: 16px 0;
 }
 @media screen and (max-width : 63.9375em)
 {
@@ -46,13 +46,18 @@ h3{
         max-width: 60vw;
         margin: 0 auto;
     }
-    p,h3{
+    p,h4{
         font-size: 1.2em;
         display: block;
-        font-weight: 400;
+        font-weight: 300;
+        
     }
     p{
+        padding-top: 8px;
         width: 70vw;
+        font-weight: 700;
     }
-
+    .aboutme-avatar{
+        margin-left: 0;
+    }
 }
