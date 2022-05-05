@@ -20,7 +20,7 @@
     margin: 3px auto;
     color: whitesmoke;
     cursor : pointer;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
 }
 .card-img{
@@ -30,20 +30,24 @@
 }
 .card-desc{
     max-width: 50vw;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-weight: 300;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;   
     padding-top: 1em;
     display: inline;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 19px;
     color :rgb(185, 238, 233);
 }
 
 .card{
     margin-top: 4em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 800;   
+    font-size: 35px;
  
 }
  .project-intro{
+    font-family: 'Fira Sans', sans-serif;
     max-width: 50vw;
     display: block;
     margin: 0 auto;

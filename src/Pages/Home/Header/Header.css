@@ -1,90 +1,84 @@
-.header{
-    height: 20em;
-    background-color: rgb(27, 26, 26);
-   padding-top: 10px;
+.header {
+  height: 20em;
+  background-color: rgb(27, 26, 26);
+  padding-top: 10px;
 }
-Link{
-  color: #0060B6;
+Link {
+  color: #0060b6;
   text-decoration: none;
-  
 }
-.img-HongTan{
-    position: absolute;
-    max-height: 70%;
-    max-width: 70%;
-    top:10%;
-    left: 4%;
-    z-index: 3;
+
+.img-HongTan {
+  position: absolute;
+  max-height: 70%;
+  max-width: 70%;
+  top: 10%;
+  left: 4%;
+  z-index: 3;
 }
-@media screen and (max-width:64em)
-{
-  .img-HongTan{
+@media screen and (max-width: 64em) {
+  .img-HongTan {
     z-index: 1;
     left: 6%;
   }
 }
 
-.nav{
+.nav {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
-.nav-bar{
-    /* max-width: 80%; */
-    list-style-type: none;
-    display: flex;
+.nav-bar {
+  /* max-width: 80%; */
+  list-style-type: none;
+  display: flex;
 }
-.item-nav{
-    border-style: dotted; 
-    border-radius: 50%;
-    padding : 40px;
-    border-color: #548ca3;
-   margin-left:3em ;
-   margin-right: 3em;
-   cursor : pointer;
-   color : #803541;
+.item-nav {
+  border-style: dotted;
+  border-radius: 50%;
+  padding: 40px;
+  border-color: #2999c5;
+  margin-left: 3em;
+  margin-right: 3em;
+  cursor: pointer;
+  color: #803541;
 }
 
-.discription{
-  
+.discription {
   position: absolute;
   background-color: #c43e3f;
   font-size: 20px;
-  color : white;
-  padding : 10px 30px 10px 30px;
+  color: white;
+  padding: 10px 30px 10px 30px;
   font-family: "Comic Sans MS", cursive, sans-serif;
- 
 }
 .item-nav:hover {
   border-color: white;
 }
 
-@media screen and (max-width : 63.9375em)
-{
-  .nav{
+@media screen and (max-width: 63.9375em) {
+  .nav {
     left: 50%;
     top: 50%;
     transform: translateX(-50%, -50%);
   }
-  .nav-bar{
+  .nav-bar {
     flex-direction: column;
   }
-  .item-nav{
-      border-radius: 10px;
-      padding: 5px 60px 5px 60px;
-      margin-top: 0.6em;
-      border-style:solid;
-      margin-left:0 ;
+  .item-nav {
+    border-radius: 10px;
+    padding: 5px 60px 5px 60px;
+    margin-top: 0.6em;
+    border-style: solid;
+    margin-left: 0;
     margin-right: 0;
-     
   }
-  svg{
+  svg {
     height: 40px;
     width: 40px;
   }
-  .discription
-  {
+  .discription {
     position: static;
     color: white;
     text-decoration: none;
@@ -92,41 +86,73 @@ Link{
     min-width: 100px;
     text-align: center;
     background-color: transparent;
-    font-family: 'Economica', sans-serif;
-    
+    font-family: "Economica", sans-serif;
   }
-  .item-nav{
+  .item-nav {
     display: flex;
   }
 }
 
-
 .loader {
-    position: absolute;
-    top:38%;
-    left: 15%;
-    border: 5px solid #100D0D;
-    border-radius: 50%;
-    border-top: 5px solid  white;
-    border-bottom: 5px solid  white;
-    width: 30px;
-    height: 30px;
-    -webkit-animation: spin 2s linear infinite;
-    animation: spin 2s linear infinite;
+  position: absolute;
+  top: 38%;
+  left: 15%;
+  border: 5px solid #100d0d;
+  border-radius: 50%;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+  width: 30px;
+  height: 30px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
   }
-  
-  @-webkit-keyframes spin {
-    0% { -webkit-transform: rotate(0deg); }
-    100% { -webkit-transform: rotate(360deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
   }
-  
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
   }
-  /* Hidden loading in mobile*/
-  @media screen and (max-width : 46.1875em) {
-    .loader{
-      display: none;
-    }
+  100% {
+    transform: rotate(360deg);
   }
+}
+/* Hidden loading in mobile*/
+@media screen and (max-width: 46.1875em) {
+  .loader {
+    display: none;
+  }
+}
+.Tittle-ThongTin,.Tittle-LienLac,.Tittle-CongViec {
+  animation: flicker 1.5s infinite alternate;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+@keyframes flicker {
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #2999c5,
+      0 0 80px #2999c5, 0 0 90px #2999c5, 0 0 100px #2999c5, 0 0 150px #2999c5;
+  }
+
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
+}
+

@@ -17,7 +17,7 @@ function BanThan() {
                <div className="aboutme-university"><p className="">Trường </p>  <h4 className="">Trường ĐH Khoa Học Tự Nhiên - ĐHQGHCM</h4></div>
                <div className="aboutme-hobby"><p className="">Sở thích  </p>  <h4 className="">Code, bóng chuyền, bóng đá, bóng rỗ, chạy bộ,...</h4></div>
                <div className="aboutme-idol"><p className="">Thần tượng  </p>  <h4 className="">Abraham Lincoln, Ricardo Kaká</h4></div>
-               <div className="aboutme-quetos"><p className="">Quetos </p>  <h4 className="">"Cách tốt nhất để dự đoán tương lai là tạo ra nó" - Abraham Lincoln</h4></div>
+               <div className="aboutme-quetos"><p className="">Quotes </p>  <h4 className="">"Cách tốt nhất để dự đoán tương lai là tạo ra nó" - Abraham Lincoln</h4></div>
                <MoveTop/>
            </div>
         </div>
