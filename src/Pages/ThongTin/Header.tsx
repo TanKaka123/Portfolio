@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 import {
-  IconGithub,
-  IconMail,
-  IconLinkedin,
+  IconPrivate,
+  IconActivity,
+  IconStory,
   IconBack,
   IconBackMobile,
-} from "../Icon";
-import "../../../Pages/Home/Header/Header.css";
+} from "../../icon/icon";
+import "../../baseCss/common.css";
 import { Link } from "react-router-dom";
 
-function Header() {
+function Header({ click }: any) {
   const [changeColor, setChangeColor] = useState("");
   return (
     <div>
@@ -20,65 +20,58 @@ function Header() {
         <Link className="icon-back-mobile" to={"/"}>
           <IconBackMobile />
         </Link>
-
-        <div className="Tittle-LienLac">Thông Tin Liên Lạc</div>
+        <div className="Tittle-ThongTin">Thông Tin Cá Nhân</div>
         <div className="nav">
           <ul className="nav-bar">
             <a
-              href="https://github.com/TanKaka123"
-              target="_blank"
+              href="#ban-than"
+              onClick={() => click("ban-than")}
               className="item-nav"
               onMouseOver={() => {
-                setChangeColor("github");
+                setChangeColor("private");
               }}
               onMouseOut={() => {
                 setChangeColor("");
               }}
               rel="noreferrer"
             >
-              <IconGithub color={changeColor} />
-              <h2 className="discription" style={{ left: "3.2em" }}>
-                Github
+              <IconPrivate color={changeColor} />
+              <h2 className="discription" style={{ left: "2.5em" }}>
+                Bản Thân
               </h2>
             </a>
             <a
-              href="mailto:hongtan1422002@gmail.com?"
-              target="_blank"
+              href="#hoat-dong"
+              onClick={() => click("hoat-dong")}
+              rel="noreferrer"
               className="item-nav"
               onMouseOver={() => {
-                setChangeColor("mail");
+                setChangeColor("activity");
               }}
               onMouseOut={() => {
                 setChangeColor("");
               }}
-              rel="noreferrer"
             >
-              <IconMail color={changeColor} />
-              <h2
-                className="discription"
-                style={{ right: "16em", bottom: "0" }}
-              >
-                Email
+              <IconActivity color={changeColor} />
+              <h2 className="discription" style={{ right: "14.6em" }}>
+                Hoạt Động
               </h2>
             </a>
             <a
-              href="https://www.linkedin.com/in/nguyenhongtan/"
-              target="_blank"
+              href="#cau-chuyen"
+              onClick={() => click("cau-chuyen")}
               className="item-nav"
               onMouseOver={() => {
-                setChangeColor("linkedin");
+                setChangeColor("story");
               }}
               onMouseOut={() => {
                 setChangeColor("");
               }}
               rel="noreferrer"
             >
-              <IconLinkedin color={changeColor} />
-              <h2
-                className="discription"
-                style={{ right: "2.8em", bottom: "0" }}
-              >
-                Linkedin
+              <IconStory color={changeColor} />
+              <h2 className="discription" style={{ right: "2em" }}>
+                Câu Chuyện
               </h2>
             </a>
           </ul>

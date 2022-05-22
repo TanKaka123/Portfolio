@@ -1,5 +1,5 @@
 import Footer from '../../Components/Footer/Footer';
-import Header from './Header/Header';
+import Header from './HeadHome';
 import './Home.css'
 import Tittle from '../../Components/Tittle/Tittle';
 import HongTan from '../../Components/HongTan/HongTan';

@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
-import { IconResume, IconProject, IconBack, IconBackMobile } from "../Icon";
-import "../../Home/Header/Header.css";
+import { IconResume, IconProject, IconBack, IconBackMobile } from "../../icon/icon";
+import "../../baseCss/common.css";
+
 function Header({ openProject }: any) {
   const [changeColor, setChangeColor] = useState("");
-
+  
   return (
     <div className="header  ">
       <Link className="icon-back" to={"/"}>
@@ -17,10 +18,7 @@ function Header({ openProject }: any) {
       <div className="Tittle-CongViec">Resume và Project </div>
       <div className="nav">
         <ul className="nav-bar">
-          <a
-            href="./Resume.pdf"
-            download
-            className="item-nav"
+          <a href="./Resume.pdf" download className="item-nav" 
             onMouseOver={() => {
               setChangeColor("resume");
             }}
@@ -30,7 +28,7 @@ function Header({ openProject }: any) {
             rel="noreferrer"
           >
             <IconResume color={changeColor} />
-            <h2 className="discription" style={{ left: "2.2em", bottom: "0" }}>
+            <h2 className="discription" style={{ left: "2.2em" }}>
               Resume/CV
             </h2>
           </a>

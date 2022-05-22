@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import "./Projet.css";
 import content from './Project.json'
 import MoveTop from "../../../Components/MoveTop/MoveTop";

@@ -1,11 +1,10 @@
-import React from 'react';
 import './BanThan.css'
 import MoveTop from '../../../Components/MoveTop/MoveTop';
 function BanThan() {
     return (
         <div className='aboutme'>
             <div className="aboutme-avt--wrapper">
-            <img src="./avatar-HongTan.png" alt="Tan" className="aboutme-avatar" />
+            <img src="./imgMe/avatar-HongTan.png" alt="Tan" className="aboutme-avatar" />
             </div>
            <div className="aboutme-desc">
                <div className="aboutme-name"> <p className="">Họ và Tên </p>  <h4 className="">Nguyễn Hồng Tấn</h4></div>

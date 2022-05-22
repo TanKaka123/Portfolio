@@ -12,14 +12,14 @@ Link {
   position: absolute;
   max-height: 70%;
   max-width: 70%;
-  top: 10%;
-  left: 4%;
+  top: 11%;
+  right: 2%;
   z-index: 3;
 }
 @media screen and (max-width: 64em) {
   .img-HongTan {
     z-index: 1;
-    left: 6%;
+    right: 0%;
   }
 }
 

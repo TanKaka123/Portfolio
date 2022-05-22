@@ -5,7 +5,7 @@ import "./CauChuyen.css";
 function CauChuyen() {
   return (
     <div>
-      <div className="cauchuyen">
+      {/* <div className="cauchuyen">
         <div className="cauchuyen-1">
           <img
             src="./stories/cap-3.png"
@@ -37,7 +37,7 @@ function CauChuyen() {
           </h3>
         </div>
       </div>
-      <MoveTop />
+      <MoveTop /> */}
     </div>
   );
 }

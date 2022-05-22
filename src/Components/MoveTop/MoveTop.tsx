@@ -12,7 +12,7 @@ function MoveTop() {
       setVisible(false)
     }
   };
-    
+  
   window.addEventListener('scroll', toggleVisible);
     const handleClick=()=>{
         document.body.scrollTop = 0;
@@ -20,7 +20,7 @@ function MoveTop() {
     }
     return (
         <div>
-            <img src="./move.png" alt="move-top-btn" className="move-top" id="move-btn" onClick={handleClick} style={{display: visible ? 'inline' : 'none'}}/>
+            <img src="./logoAndOther/move.png" alt="move-top-btn" className="move-top" id="move-btn" onClick={handleClick} style={{display: visible ? 'inline' : 'none'}}/>
         </div>
     );
 }

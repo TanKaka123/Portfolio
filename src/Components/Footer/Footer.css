@@ -7,8 +7,8 @@
 
   .basketball {
     position: absolute;
-    right: 140px;
-    bottom: 160px;
+    left: 80px;
+    bottom: 124px;
   }
   
   .ball {
@@ -19,7 +19,7 @@
     height:90px;
     overflow: hidden;
     border: 3px solid #333;
-    animation: bounce 1.5s ease-in 1;
+    animation: bounce 1.5s ease-in 1.5;
   }
   @media screen and (max-width:46.1875em)
   {
@@ -84,8 +84,8 @@
     border-radius:50%;
     top:95px;
     z-index:1;
-    left:3px;
-    animation: scale 1.5s ease-in 1;
+    left:1px;
+    animation: scale 1.5s ease-in 1.5;
   }
   
   @keyframes scale {

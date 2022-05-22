@@ -16,7 +16,6 @@ function Footer() {
                 </div>
             </div>
             {openModal &&  <Modal/>}
-           
         </div>
         </div>
     );

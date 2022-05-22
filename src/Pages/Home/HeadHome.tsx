@@ -1,6 +1,6 @@
 import { useState } from "react";
-import "./Header.css";
-import { IconInfor, IconWork, IconContact } from "./Icon";
+import "../../baseCss/common.css";
+import { IconInfor, IconWork, IconContact } from "../../icon/icon";
 import { Link } from "react-router-dom";
 
 function Header() {

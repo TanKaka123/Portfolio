@@ -2,12 +2,13 @@ import React, { useState } from 'react';
 import Tittle from '../../Components/Tittle/Tittle';
 import Footer from '../../Components/Footer/Footer';
 import HongTan from '../../Components/HongTan/HongTan';
-import '../Home/Header/Header.css'
+import '../../baseCss/common.css'
 import './ThongTin.css'
-import Header from './Header/Header';
+import Header from './Header';
 import BanThan from './BanThan/BanThan';
 import HoatDong from './HoatDong/HoatDong';
 import CauChuyen from './CauChuyen/CauChuyen';
+
 function ThongTin() {
     const [handleSelect,setHandleSelect]=useState(' ');
     return (

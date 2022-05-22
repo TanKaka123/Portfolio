@@ -1,12 +1,10 @@
-import React, { useState } from 'react';
 import Tittle from '../../Components/Tittle/Tittle';
-
 import Footer from '../../Components/Footer/Footer';
 import HongTan from '../../Components/HongTan/HongTan';
 
-import '../Home/Header/Header.css'
+import '../../baseCss/common.css';
 import './LienLac.css';
-import Header from './Header/Header';
+import Header from './HeadLienLac';
 
 function LienLac() {
    
